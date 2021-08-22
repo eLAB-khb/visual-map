@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+#super_container{
+  /* background-color: aquamarine; */
+  margin: auto;
+}
+#canvas_container{
+  /* background-color: coral; */
+}
+
+#overlay_container{
+  /* background-color: red; */
+  position: relative;
+  top: -500px;
+}
+
+canvas {
+  display: block;
+}
+
+.h_function{color: orange;}
+.h_function, .h_text{
+  font-family: Inconsolata, monospace;
+  font-size: 40px;
+font-weight: bold;
+}
+
+input[type=text]{
+  font-family: Inconsolata, monospace;
+  text-align: CENTER;
+}
+
+.map {
+  width: 75px;
+  height: 40px;
+  /* position: relative; */
+  top: 32px;
+
+  font-size: 40px;
+  font-style: italic;
+  border: solid 1px darkgray ;
+  border-radius: 5px;
+}
+
+.in_r1_start {
+  /* left: 133px; */
+}
+
+.in_r1_end {
+  /* left: 152px; */
+}
+
+.in_r2_start {
+  /* left: 170px; */
+}
+
+.in_r2_end {
+  /* left: 190px; */
+}
